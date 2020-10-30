@@ -13,6 +13,7 @@ template = {"coffee": 0, "tea": 0, "milk": 0}
 
 SPREADSHEET_ID = '1hAvLsZLNnDxm-8b3Dc5MyE6chK1kBngeLFIME7fcr9o'
 RANGE_NAME = 'Sheet1!A1:E100'
+SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 
 app = Flask(__name__, static_url_path="")
